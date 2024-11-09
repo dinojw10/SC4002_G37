@@ -32,7 +32,7 @@ This assignment implements a sentiment classification system using pretrained wo
 
 -  `cnn.ipynb`: Notebook with the cnn model training and evaluation.
 
-- `bert+bilstm.ipynb`: Notebook with the bert+bilstm model training and evulation.
+  
 
   
 
@@ -43,6 +43,9 @@ This assignment implements a sentiment classification system using pretrained wo
 ### Dataset Setup
 
 1. Ensure the required libraries, including `datasets`, are installed.
+
+    !pip install datasets
+
 The libraries we used for this assignment are as follows: 
 
 |Libraries|                                
@@ -100,7 +103,7 @@ After training each model, accuracy scores on the test set are provided for comp
 
 -  **RNN with max pooling**: Accuracy on test set: 68.48%
 
--  **biLSTM**: Accuracy on test set: 80.68%
+-  **biLSTM**: Accuracy on test set: 80.21%
 
 -  **biGRU**: Accuracy on test set: 79.26%
 
