@@ -1,0 +1,14 @@
+numpy
+torch
+tensorflow
+keras
+datasets
+scikit-learn
+matplotlib
+keras-tuner
+deep-translator
+langdetect
+spacy
+contractions
+nltk
+pyspellchecker
