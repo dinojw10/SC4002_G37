@@ -18,7 +18,7 @@
 
 ## Overview
 
-This assignment implements a sentiment classification system using pretrained word embeddings, specifically GloVe, to classify movie reviews. The goal is to explore and compare various neural network architectures, including simple RNN, biLSTM, biGRU, CNN and Bert+LSTM models, and to assess the effectiveness of different methods for handling Out-of-Vocabulary (OOV) words.
+This assignment implements a sentiment classification system using pretrained word embeddings, specifically GloVe, to classify movie reviews. The goal is to explore and compare various neural network architectures, including simple RNN, biLSTM, biGRU, CNN and BERT+biLSTM models, and to assess the effectiveness of different methods for handling Out-of-Vocabulary (OOV) words.
 
   
 
@@ -34,11 +34,11 @@ This assignment implements a sentiment classification system using pretrained wo
 
 -  `preprocessing.ipynb`: Notebook with the relevant pre-processing steps and the OOV words results.
 
--  `cnn_bigru_hybrid.ipynb`: Notebook with the CNN + biLGRU hybrid model training and evaluation
+-  `cnn_bigru_hybrid.ipynb`: Notebook with the CNN + biGRU hybrid model training and evaluation
 
 -  `ensemble_learning_cnn_biGRU.ipynb`: Notebook with implementation and the evaluation of ensemble learning done on CNN and biLSTM models
 
--  `bert_bilstm_hybrid.ipynb`: Notebook with the bert + biLSTM hybrid model training and evaluation
+-  `bert_bilstm_hybrid.ipynb`: Notebook with the BERT + biLSTM hybrid model training and evaluation
 
   
 
@@ -80,7 +80,7 @@ The libraries we used for this assignment are as follows:
 
 ### Running Each Model
 
-1. Open the respective notebook (e.g., `rnn.ipynb` for RNN, `bilstm.ipynb` for biLSTM, `bigru.ipynb` for biGRU, `cnn.ipynb` for cnn, `bert_bigru_hybrid.ipynb` for bert+biGRU).
+1. Open the respective notebook (e.g., `rnn.ipynb` for RNN, `bilstm.ipynb` for biLSTM, `bigru.ipynb` for biGRU, `cnn.ipynb` for cnn, `bert_bigru_hybrid.ipynb` for BERT+biGRU).
 
 2. Follow the cells to load the dataset, preprocess data, and train the model.
 
@@ -120,7 +120,7 @@ After training each model, accuracy scores on the test set are provided for comp
 
 -  **CNN + biGRU**: Accuracy on test set: 78.05%
 
--  **Ensemble Learning using CNN + BiLSTM**: Accuracy on test set: 74.30%
+-  **Ensemble Learning done on CNN and BiLSTM**: Accuracy on test set: 74.30%
 
 -  **BERT+biLSTM**: Accuracy on test set: 85.18%
 
