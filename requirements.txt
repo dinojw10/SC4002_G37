@@ -2,13 +2,21 @@ numpy
 torch
 tensorflow
 keras
-datasets
+keras-tuner
 scikit-learn
 matplotlib
-keras-tuner
+datasets
+
+# Natural Language Processing
 deep-translator
 langdetect
 spacy
 contractions
 nltk
 pyspellchecker
+
+# Spell Checking
+spellchecker
+
+# Optimization
+optuna
