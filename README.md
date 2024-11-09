@@ -34,6 +34,12 @@ This assignment implements a sentiment classification system using pretrained wo
 
 -  `preprocessing.ipynb`: Notebook with the relevant pre-processing steps and the OOV words results.
 
+-  `cnn_bigru_hybrid.ipynb`: Notebook with the CNN + biLGRU hybrid model training and evaluation
+
+-  `ensemble_learning_cnn_biGRU.ipynb`: Notebook with implementation and the evaluation of ensemble learning done on CNN and biLSTM models
+
+-  `bert_bilstm_hybrid.ipynb`: Notebook with the bert + biLSTM hybrid model training and evaluation
+
   
 
 ## Instructions to Run the Code
@@ -74,7 +80,7 @@ The libraries we used for this assignment are as follows:
 
 ### Running Each Model
 
-1. Open the respective notebook (e.g., `rnn.ipynb` for RNN, `bilstm.ipynb` for biLSTM, `bigru.ipynb` for biGRU, `cnn.ipynb` for cnn, `bert_bilstm_hybrid.ipynb` for bert+biLSTM).
+1. Open the respective notebook (e.g., `rnn.ipynb` for RNN, `bilstm.ipynb` for biLSTM, `bigru.ipynb` for biGRU, `cnn.ipynb` for cnn, `bert_bigru_hybrid.ipynb` for bert+biGRU).
 
 2. Follow the cells to load the dataset, preprocess data, and train the model.
 
