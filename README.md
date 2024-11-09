@@ -32,7 +32,7 @@ This assignment implements a sentiment classification system using pretrained wo
 
 -  `cnn.ipynb`: Notebook with the cnn model training and evaluation.
 
-  
+- `bert+bilstm.ipynb`: Notebook with the bert+bilstm model training and evulation.
 
   
 
