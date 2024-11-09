@@ -100,7 +100,7 @@ After training each model, accuracy scores on the test set are provided for comp
 
 -  **RNN with max pooling**: Accuracy on test set: 68.48%
 
--  **biLSTM**: Accuracy on test set: 80.21%
+-  **biLSTM**: Accuracy on test set: 80.68%
 
 -  **biGRU**: Accuracy on test set: 79.26%
 
