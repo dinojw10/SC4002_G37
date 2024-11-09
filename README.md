@@ -32,7 +32,7 @@ This assignment implements a sentiment classification system using pretrained wo
 
 -  `cnn.ipynb`: Notebook with the cnn model training and evaluation.
 
-  
+-  `preprocessing.ipynb`: Notebook with the relevant pre-processing steps and the OOV words results.
 
   
 
@@ -42,9 +42,9 @@ This assignment implements a sentiment classification system using pretrained wo
 
 ### Dataset Setup
 
-1. Ensure the required libraries, including `datasets`, are installed.
+1. Ensure the required libraries are installed.
 
-    !pip install datasets
+    !pip install -r requirements.txt
 
 The libraries we used for this assignment are as follows: 
 
