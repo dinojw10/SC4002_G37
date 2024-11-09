@@ -61,6 +61,9 @@ The libraries we used for this assignment are as follows:
 |NLTK|
 |PySpellChecker|
 |Random|
+|Transformers|
+|Numba|
+|Tqdm|
 |Optuna|
 
 2. Run the code to load the Rotten Tomatoes dataset.
@@ -71,7 +74,7 @@ The libraries we used for this assignment are as follows:
 
 ### Running Each Model
 
-1. Open the respective notebook (e.g., `rnn.ipynb` for RNN, `bilstm.ipynb` for biLSTM, `bigru.ipynb` for biGRU, `cnn.ipynb` for cnn, `bert+bilstm.ipynb` for bert+bilstm).
+1. Open the respective notebook (e.g., `rnn.ipynb` for RNN, `bilstm.ipynb` for biLSTM, `bigru.ipynb` for biGRU, `cnn.ipynb` for cnn, `bert_bilstm_hybrid.ipynb` for bert+biLSTM).
 
 2. Follow the cells to load the dataset, preprocess data, and train the model.
 
@@ -109,7 +112,11 @@ After training each model, accuracy scores on the test set are provided for comp
 
 -  **CNN**: Accuracy on test set: 72.42%
 
--  **BERT+LSTM**: Accuracy on test set: 85.18%
+-  **CNN + biGRU**: Accuracy on test set: 78.05%
+
+-  **Ensemble Learning using CNN + BiLSTM**: Accuracy on test set: 74.30%
+
+-  **BERT+biLSTM**: Accuracy on test set: 85.18%
 
   
 

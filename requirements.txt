@@ -6,6 +6,7 @@ keras-tuner
 scikit-learn
 matplotlib
 datasets
+numba
 
 # Natural Language Processing
 deep-translator
@@ -20,3 +21,9 @@ spellchecker
 
 # Optimization
 optuna
+
+#Transformers
+transformers
+
+#GPU usage
+GPUtil
