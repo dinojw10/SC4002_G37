@@ -114,7 +114,7 @@ After training each model, accuracy scores on the test set are provided for comp
 
 -  **biLSTM**: Accuracy on test set: 81.71%
 
--  **biGRU**: Accuracy on test set: 79.26%
+-  **biGRU**: Accuracy on test set: 80.58%
 
 -  **CNN**: Accuracy on test set: 72.42%
 
